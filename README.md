@@ -7,10 +7,13 @@ Este es un proyecto que hice en noviembre del 2019 y ahora acabo de modificar, y
 
 Dentro de este repositorio voy a dejar un .csv con los top xxxx animes según https://myanimelist.net/.
 
-## Información de myanimelist.net vs scrapping
+# Información de myanimelist.net vs scrapping
 
+Directamente desde la página web, esta es la información que vas a encontrar:
 <img src="https://github.com/luisferlc/Anime-Scrapping/blob/master/images/full.PNG">
 <img src="https://github.com/luisferlc/Anime-Scrapping/blob/master/images/fullm.PNG">
+
+Así es como se ve el .csv scrapeeado:
 
 
 
