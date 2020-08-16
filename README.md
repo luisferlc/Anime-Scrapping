@@ -10,12 +10,19 @@ Dentro de este repositorio voy a dejar un .csv con los top xxxx animes según ht
 # Información de myanimelist.net vs scrapping
 
 Directamente desde la página web, esta es la información que vas a encontrar:
+
 <img src="https://github.com/luisferlc/Anime-Scrapping/blob/master/images/full.PNG">
 <img src="https://github.com/luisferlc/Anime-Scrapping/blob/master/images/fullm.PNG">
 
 Así es como se ve el .csv scrapeeado:
 
+<img src="https://github.com/luisferlc/Anime-Scrapping/blob/master/images/scrapped.PNG">
 
+## Librerías utilizadas:
+* pandas
+* BeautifulSoup
+* requests
+* time
 
 
 
