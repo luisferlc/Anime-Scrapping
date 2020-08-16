@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Nov 11 10:28:37 2019
-
+Modified on 16/07/2020
 @author: luisf
 """
 
@@ -14,7 +14,7 @@ class scrape_anime_bruh:
 
     def __init__(self, url_pattern, pages_to_scrape=1, sleep_interval=-1, content_parser=None):
         self.url_pattern = url_pattern
-        self.pages_to_scrape = pages_to_scrape + 1600
+        self.pages_to_scrape = pages_to_scrape
         self.sleep_interval = sleep_interval
         self.content_parser = content_parser
     
@@ -29,7 +29,7 @@ class scrape_anime_bruh:
 
     def kickstart(self):
         scraped = []
-        for i in range(1600, self.pages_to_scrape,50):
+        for i in range(0, self.pages_to_scrape,50):
             try:
                 scraped.append(self.scrape_url(self.url_pattern % i))
                 time.sleep(self.sleep_interval)
