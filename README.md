@@ -10,6 +10,7 @@ Dentro de este repositorio voy a dejar un .csv con los top xxxx animes según ht
 ## Información de myanimelist.net vs scrapping
 
 <img src="https://github.com/luisferlc/Anime-Scrapping/blob/master/images/full.PNG">
+
 <img src="https://github.com/luisferlc/Anime-Scrapping/blob/master/images/full2.PNG">
 
 
