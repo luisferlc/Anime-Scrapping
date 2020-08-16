@@ -64,6 +64,7 @@ def web_scrapping(lst):
         title_string=title_string.split(">")
         print(title_string)
         title_string=title_string[2].replace("</span", "")
+        title_string=title_string.replace("<br/", "")
         #Type
         typo = soupa.select('span + a')
         typo = typo[0]
@@ -97,8 +98,8 @@ def web_scrapping(lst):
         #Starting season
         if typo == 'TV':
             sseason=soupa.find("span", text="Premiered:").nextSibling.nextSibling
-            if '>' in sseason:
-                sseason=str(sseason).split(">")[1].split(" ")[0]
+            #if '>' in sseason:
+            sseason=str(sseason).split(">")[1].split(" ")[0]
         else:
             sseason = '-'
         #Broadcast
