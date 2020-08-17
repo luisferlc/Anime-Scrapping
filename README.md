@@ -18,6 +18,8 @@ Así es como se ve el .csv scrapeeado:
 
 <img src="https://github.com/luisferlc/Anime-Scrapping/blob/master/images/scrapped.PNG">
 
+Si deseas poder utilizar este sistema de scrapping para descargarte la información de myanimelist.net, necesitas descargar el exe_web_project.py y web_project_anime.py, y ponerlos en un mismo directorio. Después, dentro del exe_web_project.py hay una variable llamada "anime_to_scrape" la cual esta definida con 50. Tu podrías modificar este valor y decidir descargar la información de los animes que desees. Luego solamente ejecutras el exe_web_project.py y el .csv se va generar.
+
 ## Librerías utilizadas:
 * pandas
 * BeautifulSoup
